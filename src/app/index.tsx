@@ -1,9 +1,10 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import Panel from "../views/panel/panel";
 
 export default function Index() {
     return (
-        <View>
-            <Text>Hello World</Text>
+        <View style={{ marginTop: "10%" }}>
+            <Panel/>
         </View>
     )
 }
